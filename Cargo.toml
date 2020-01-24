@@ -1,0 +1,13 @@
+[package]
+name = "subenzyme-codec"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+edition = "2018"
+description = "Encoding and decoding tools to communicate with substrate over RPC"
+license = "MIT"
+
+[dependencies]
+blake2b_simd = "0.5.10"
+bs58 = "0.3.0"
+parity-scale-codec = { version = "1.1.2", features = ["derive"] }
+twox-hash = "1.5.0"
